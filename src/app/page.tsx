@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <header className="nav">
         <div className="navInner">
-          <div className="brand">Your Name / Studio</div>
+          <div className="brand">Louis Fortin / Freelance Motion Designer</div>
           <nav className="navLinks">
             <a href="#work">Work</a>
             <a href="#offer">Launch Ad</a>
