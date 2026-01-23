@@ -1,5 +1,5 @@
 const BOOKING_URL = "https://calendly.com/louisfortin97/30min"; // TODO: replace
-const REEL_EMBED_URL = "https://www.youtube.com/watch?v=A0nLSHv_6Xg"; // TODO: replace (Vimeo/YouTube embed)
+const REEL_EMBED_URL = "https://www.youtube.com/embed/A0nLSHv_6Xg"; // TODO: replace (Vimeo/YouTube embed)
 
 type FAQItem = { q: string; a: string };
 
