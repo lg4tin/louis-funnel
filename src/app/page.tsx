@@ -156,7 +156,7 @@ export default function Home() {
               </p>
               <div className="embed">
                 <iframe
-                  src={"https://www.youtube.com/embed/=QUanGuJMJys"}
+                  src={"https://www.youtube.com/embed/Jdy6sCt7gHw"}
                   title="Case Study 1"
                   allow="autoplay; encrypted-media; picture-in-picture"
                   allowFullScreen
@@ -176,7 +176,15 @@ export default function Home() {
               <p className="fine">
                 Goal: highlight 3 new features with clean UI transitions and tight pacing for paid social.
               </p>
-              <div className="mediaPlaceholder" />
+              <div className="embed">
+              <iframe
+                src={"https://www.youtube.com/embed/QUanGuJMJys"}
+                title="Case Study 2"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+
               <ul>
                 <li>Feature clarity</li>
                 <li>Fast pacing, no fluff</li>
