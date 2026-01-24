@@ -154,7 +154,15 @@ export default function Home() {
               <p className="fine">
                 Goal: explain a complex workflow in under 30 seconds with UI clarity and a strong hook.
               </p>
-              <div className="https://www.youtube.com/embed/=QUanGuJMJys" />
+              <div className="embed">
+              <iframe
+                src={"https://www.youtube.com/embed/=QUanGuJMJys&feature=youtu.be"}
+                title="Case Study 1"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+
               <ul>
                 <li>Immediate product understanding</li>
                 <li>Scroll-stopping opening hook</li>
