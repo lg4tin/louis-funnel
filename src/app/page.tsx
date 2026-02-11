@@ -118,7 +118,7 @@ export default function Home() {
 
               <div className="embed">
                 <iframe
-                  src="https://www.youtube.com/embed/=JPZEpHoe0CQ"
+                  src="https://www.youtube.com/embed/Jdy6sCt7gHw"
                   title="Featured Work"
                   allow="autoplay; encrypted-media; picture-in-picture"
                   allowFullScreen
