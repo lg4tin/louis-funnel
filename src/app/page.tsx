@@ -7,21 +7,21 @@ export default function Home() {
       kicker: "Featured",
       title: "Dev Tools Launch Ad",
       goal: "Explain a complex workflow in under 30 seconds with UI clarity and a strong hook.",
-      url: "https://www.youtube.com/embed/Jdy8cCt7gHw",
+      url: "https://www.youtube.com/embed/JPZEpHoe0CQ",
       bullets: ["Engineered hook structure", "UI-led transformation storytelling", "Modular scenes for variations"],
     },
     {
       kicker: "Case Study",
       title: "AI SaaS Feature Drop",
       goal: "Highlight 3 new features with clean UI transitions and tight pacing for paid social.",
-      url: "https://www.youtube.com/embed/QUanGuJMYys",
+      url: "https://www.youtube.com/embed/Jdy6sCt7gHw",
       bullets: ["Feature clarity", "Fast pacing, no fluff", "Conversion-ready structure"],
     },
     {
       kicker: "Case Study",
       title: "SaaS Product Workflow",
       goal: "Make complex product value feel obvious in seconds.",
-      url: "https://www.youtube.com/embed/VIDEO_ID_HERE",
+      url: "https://www.youtube.com/embedd4MsKyg8y2o",
       bullets: ["Outcome-led copy", "Clean UI focus", "Strong CTA framing"],
     },
   ];
@@ -43,7 +43,7 @@ export default function Home() {
           </h1>
 
           <p className="heroSub">
-            We help B2B SaaS companies lower CPC, increase CTR, and turn cold traffic into demo bookings — in 20 seconds.
+            We help B2B SaaS companies lower CPC, increase CTR, and turn cold traffic into demo bookings — in 30 seconds.
           </p>
 
           <div className="actions center">
@@ -55,9 +55,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="micro">
-            Text-only for now. The 90-second VSL will be added here later (directly under the hero).
-          </div>
+
         </div>
       </section>
 
@@ -101,7 +99,7 @@ export default function Home() {
               <div className="metricLabel">Higher CTR</div>
             </div>
             <div className="metric">
-              <div className="metricNum">20 sec</div>
+              <div className="metricNum">30 sec</div>
               <div className="metricLabel">Cold → Warm</div>
             </div>
           </div>
