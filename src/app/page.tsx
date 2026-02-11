@@ -118,7 +118,7 @@ export default function Home() {
 
               <div className="embed">
                 <iframe
-                  src="https://www.youtube.com/embed/Jdy6sCt7gHw"
+                  src="https://www.youtube.com/embed/JPZEpHoe0CQ"
                   title="Featured Work"
                   allow="autoplay; encrypted-media; picture-in-picture"
                   allowFullScreen
@@ -162,7 +162,7 @@ export default function Home() {
               <p className="fine">Goal: highlight 3 new features with clean UI transitions and tight pacing for paid social.</p>
               <div className="embed">
                 <iframe
-                  src="https://www.youtube.com/embed/QUanGuJMYys"
+                  src="https://www.youtube.com/embed/Jdy6sCt7gHw"
                   title="Case Study 2"
                   allow="autoplay; encrypted-media; picture-in-picture"
                   allowFullScreen
@@ -181,7 +181,7 @@ export default function Home() {
               <p className="fine">Goal: make complex product value feel obvious in seconds.</p>
               <div className="embed">
                 <iframe
-                  src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                  src="https://www.youtube.com/embed/d4MsKyg8y2o"
                   title="Case Study 3"
                   allow="autoplay; encrypted-media; picture-in-picture"
                   allowFullScreen
