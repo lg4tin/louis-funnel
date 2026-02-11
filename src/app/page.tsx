@@ -1,11 +1,36 @@
 export default function Home() {
-  const BOOKING_URL = "https://calendly.com/louisfortin97/30min?month=2026-02"; // TODO: replace (Calendly/SavvyCal)
+  const BOOKING_URL = "https://calendly.com/louisfortin97/30min?month=2026-02"; // TODO
+  const EMAIL = "louisfortin97@gmail.com"; // optional
+
+  const work = [
+    {
+      kicker: "Featured",
+      title: "Dev Tools Launch Ad",
+      goal: "Explain a complex workflow in under 30 seconds with UI clarity and a strong hook.",
+      url: "https://www.youtube.com/embed/Jdy8cCt7gHw",
+      bullets: ["Engineered hook structure", "UI-led transformation storytelling", "Modular scenes for variations"],
+    },
+    {
+      kicker: "Case Study",
+      title: "AI SaaS Feature Drop",
+      goal: "Highlight 3 new features with clean UI transitions and tight pacing for paid social.",
+      url: "https://www.youtube.com/embed/QUanGuJMYys",
+      bullets: ["Feature clarity", "Fast pacing, no fluff", "Conversion-ready structure"],
+    },
+    {
+      kicker: "Case Study",
+      title: "SaaS Product Workflow",
+      goal: "Make complex product value feel obvious in seconds.",
+      url: "https://www.youtube.com/embed/VIDEO_ID_HERE",
+      bullets: ["Outcome-led copy", "Clean UI focus", "Strong CTA framing"],
+    },
+  ];
 
   return (
     <main>
       {/* HERO */}
-      <section className="section hero">
-        <div className="container">
+      <section className="sec secHero">
+        <div className="container center">
           <div className="pillRow">
             <span className="pill">Built for paid acquisition teams</span>
             <span className="pill">20–30s ads</span>
@@ -13,40 +38,42 @@ export default function Home() {
             <span className="pill">A/B test ready</span>
           </div>
 
-          <h1 className="h1">
-            Performance-Driven Animated Ads for{" "}
-            <span className="gradient">Growth-Stage SaaS</span>
+          <h1 className="heroTitle">
+            Performance-Driven Animated Ads for <span className="accent">Growth-Stage SaaS</span>
           </h1>
-          <p className="sub">
-            We help B2B SaaS companies lower CPC, increase CTR, and turn cold traffic into demo bookings — in 30 seconds.
+
+          <p className="heroSub">
+            We help B2B SaaS companies lower CPC, increase CTR, and turn cold traffic into demo bookings — in 20 seconds.
           </p>
 
-          <div className="actions">
+          <div className="actions center">
             <a className="btn btnPrimary" href={BOOKING_URL} target="_blank" rel="noreferrer">
               Book a Strategy Call
             </a>
             <a className="btn" href="#work">
-              See Featured Work
+              See Work
             </a>
           </div>
 
-          {/* VSL placeholder */}
-          <p className="micro">
-            Text-only for now. VSL will be added here later (90 seconds, placed directly under the hero).
-          </p>
+          <div className="micro">
+            Text-only for now. The 90-second VSL will be added here later (directly under the hero).
+          </div>
         </div>
       </section>
 
       {/* PROBLEM */}
-      <section className="section">
+      <section className="sec secDark">
         <div className="container">
-          <h2 className="h2">Your Creative Is the Bottleneck.</h2>
-          <p className="fine">
-            In 2025, everyone has access to the same targeting tools. Meta optimizes delivery. Google optimizes placement.
-            The only real variable left is your ad creative.
-          </p>
+          <div className="sectionHead">
+            <span className="pill pillSoft">The problem</span>
+            <h2 className="bigTitle">Your creative is the bottleneck.</h2>
+            <p className="lead">
+              In 2025, everyone has access to the same targeting tools. Meta optimizes delivery. Google optimizes placement.
+              The only real variable left is your ad creative.
+            </p>
+          </div>
 
-          <div className="grid3" style={{ marginTop: 16 }}>
+          <div className="grid3">
             <div className="card">
               <div className="kicker">Outcome</div>
               <h3 className="cardTitle">Higher CPC</h3>
@@ -59,8 +86,23 @@ export default function Home() {
             </div>
             <div className="card">
               <div className="kicker">Outcome</div>
-              <h3 className="cardTitle">Expensive Scaling</h3>
+              <h3 className="cardTitle">Expensive scaling</h3>
               <p className="fine">When creative plateaus, scaling becomes a budget problem.</p>
+            </div>
+          </div>
+
+          <div className="metrics">
+            <div className="metric">
+              <div className="metricNum">↓ 20–40%</div>
+              <div className="metricLabel">Lower CPC</div>
+            </div>
+            <div className="metric">
+              <div className="metricNum">↑ 30–60%</div>
+              <div className="metricLabel">Higher CTR</div>
+            </div>
+            <div className="metric">
+              <div className="metricNum">20 sec</div>
+              <div className="metricLabel">Cold → Warm</div>
             </div>
           </div>
 
@@ -70,32 +112,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section metrics">
-        <div className="container metricsRow">
-          <div className="metric">
-            <h3>↓ 20–40%</h3>
-            <p>Lower CPC</p>
-          </div>
-          <div className="metric">
-            <h3>↑ 30–60%</h3>
-            <p>Higher CTR</p>
-          </div>
-          <div className="metric">
-            <h3>20 sec</h3>
-            <p>Cold → Warm</p>
-          </div>
-        </div>
-      </section>
-
       {/* SOLUTION */}
-      <section className="section">
+      <section className="sec secGlow">
         <div className="container">
-          <h2 className="h2">Performance-Engineered SaaS Creative</h2>
-          <p className="fine">
-            We don’t create generic brand videos. Every ad is designed for cold paid traffic — not vanity metrics.
-          </p>
+          <div className="sectionHead">
+            <span className="pill pillSoft">The solution</span>
+            <h2 className="bigTitle">Performance-engineered SaaS creative.</h2>
+            <p className="lead">
+              We don’t create generic brand videos. Every ad is designed for cold paid traffic — not vanity metrics.
+            </p>
+          </div>
 
-          <div className="grid2" style={{ marginTop: 16 }}>
+          <div className="grid2">
             <div className="card">
               <div className="kicker">Built around what wins</div>
               <ul className="list">
@@ -115,214 +143,248 @@ export default function Home() {
               <div style={{ height: 12 }} />
 
               <h3 className="cardTitle">I deliver</h3>
-              <p className="fine">Hook concepts, storyboard direction, motion, and final ad exports built for paid distribution.</p>
+              <p className="fine">
+                Hook concepts, storyboard direction, motion production, and final ad exports built for paid distribution.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* WORK */}
-      <section className="section" id="work">
+      <section className="sec secDark" id="work">
         <div className="container">
-          <h2 className="h2">Featured Work</h2>
-          <p className="fine">Keep these tight: goal, what you made, what it optimizes for.</p>
-
-          {/* FEATURED: make the first one your strongest */}
-          <div className="featured" style={{ marginTop: 16 }}>
-            <div className="card">
-              <div className="kicker">Featured</div>
-              <h3 className="cardTitle">Dev Tools Launch Ad</h3>
-              <p className="fine">
-                Goal: explain a complex workflow in under 30 seconds with UI clarity and a strong hook.
-              </p>
-
-              <div className="embed">
-                <iframe
-                  src="https://www.youtube.com/embed/JPZEpHoe0CQ"
-                  title="Featured Work"
-                  allow="autoplay; encrypted-media; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-
-              <ul className="list">
-                <li>Engineered hook structure</li>
-                <li>UI-led transformation storytelling</li>
-                <li>Modular scenes for variations</li>
-              </ul>
-            </div>
-
-            <div className="stack">
-              <div className="card">
-                <div className="kicker">Goal</div>
-                <p className="fine">
-                  Lower CPC • Increase CTR • Improve demo bookings
-                </p>
-              </div>
-              <div className="card">
-                <div className="kicker">Format</div>
-                <p className="fine">20–30s paid social ad</p>
-              </div>
-              <div className="card">
-                <div className="kicker">Built for</div>
-                <p className="fine">Cold traffic + scalable testing</p>
-              </div>
-
-              <a className="btn btnPrimary" href={BOOKING_URL} target="_blank" rel="noreferrer">
-                Book a Strategy Call
-              </a>
-            </div>
+          <div className="sectionHead center">
+            <span className="pill pillSoft">Work</span>
+            <h2 className="bigTitle">A few examples.</h2>
+            <p className="lead">Keep these tight: goal, what was built, and what it optimizes for.</p>
           </div>
 
-          {/* OPTIONAL: keep 1–2 more, not a giant gallery */}
-          <div className="grid2" style={{ marginTop: 16 }}>
-            <div className="card">
-              <div className="kicker">Case study</div>
-              <h3 className="cardTitle">AI SaaS Feature Drop</h3>
-              <p className="fine">Goal: highlight 3 new features with clean UI transitions and tight pacing for paid social.</p>
-              <div className="embed">
-                <iframe
-                  src="https://www.youtube.com/embed/Jdy6sCt7gHw"
-                  title="Case Study 2"
-                  allow="autoplay; encrypted-media; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-              <ul className="list">
-                <li>Feature clarity</li>
-                <li>Fast pacing, no fluff</li>
-                <li>Conversion-ready structure</li>
-              </ul>
-            </div>
+          <div className="workGrid">
+            {work.map((item) => (
+              <article className="workCard" key={item.title}>
+                <div className="workTop">
+                  <div className="kicker">{item.kicker}</div>
+                  <h3 className="cardTitle">{item.title}</h3>
+                  <p className="fine">{item.goal}</p>
+                </div>
 
-            <div className="card">
-              <div className="kicker">Case study</div>
-              <h3 className="cardTitle">SaaS Product Workflow</h3>
-              <p className="fine">Goal: make complex product value feel obvious in seconds.</p>
-              <div className="embed">
-                <iframe
-                  src="https://www.youtube.com/embed/d4MsKyg8y2o"
-                  title="Case Study 3"
-                  allow="autoplay; encrypted-media; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-              <ul className="list">
-                <li>Outcome-led copy</li>
-                <li>Clean UI focus</li>
-                <li>Strong CTA framing</li>
-              </ul>
-            </div>
+                <div className="embed">
+                  <iframe
+                    src={item.url}
+                    title={item.title}
+                    allow="autoplay; encrypted-media; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+
+                <ul className="list">
+                  {item.bullets.map((b) => (
+                    <li key={b}>{b}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+
+          <div className="center" style={{ marginTop: 26 }}>
+            <a className="btn btnPrimary" href={BOOKING_URL} target="_blank" rel="noreferrer">
+              Book a Strategy Call
+            </a>
           </div>
         </div>
       </section>
 
-      {/* OFFER */}
-      <section className="section" id="offer">
+      {/* TESTIMONIAL */}
+      <section className="sec secGlow">
         <div className="container">
-          <h2 className="h2">What You Get</h2>
-          <p className="fine">A complete ad package designed for paid distribution — plus hooks you can A/B test.</p>
-
-          <div className="grid3" style={{ marginTop: 16 }}>
-            <div className="card">
-              <div className="kicker">Deliverable</div>
-              <h3 className="cardTitle">1× 20–30s SaaS Ad</h3>
-              <p className="fine">Performance-first creative built from your product UI and positioning.</p>
-            </div>
-            <div className="card">
-              <div className="kicker">Testing</div>
-              <h3 className="cardTitle">3× Hook Variations</h3>
-              <p className="fine">Different first 2–3 seconds to test for higher CTR.</p>
-            </div>
-            <div className="card">
-              <div className="kicker">Delivery</div>
-              <h3 className="cardTitle">Ad-Ready Exports</h3>
-              <p className="fine">Sized and structured for paid channels.</p>
-            </div>
+          <div className="sectionHead center">
+            <span className="pill pillSoft">Client feedback</span>
+            <h2 className="bigTitle">Simple, reliable execution.</h2>
           </div>
-
-          <div className="grid2" style={{ marginTop: 16 }}>
-            <div className="card">
-              <div className="kicker">Inputs</div>
-              <h3 className="cardTitle">Built from your Figma</h3>
-              <p className="fine">Send UI screens, core claims, and your target persona. I handle storyboard → motion.</p>
-            </div>
-            <div className="card">
-              <div className="kicker">Investment</div>
-              <h3 className="cardTitle">$4,000–$5,000</h3>
-              <p className="fine">Per ad package. Best for teams actively running paid acquisition.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* RISK + CTA */}
-      <section className="section" id="book">
-        <div className="container">
-          <div className="card callout">
-            <h2 className="h2">Reduce Your Risk.</h2>
-            <p className="fine">
-              Start by redirecting just 10% of your existing ad spend to this creative. If performance improves, scale it.
-              If it underperforms, we optimize.
-            </p>
-
-            <div className="actions" style={{ marginTop: 14 }}>
-              <a className="btn btnPrimary" href={BOOKING_URL} target="_blank" rel="noreferrer">
-                Book a Strategy Call
-              </a>
-              <a className="btn" href="#work">
-                View Work
-              </a>
-            </div>
-
-            <p className="micro" style={{ marginTop: 10 }}>
-              Limited monthly capacity.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <h2 className="h2">Client Feedback</h2>
 
           <div className="testimonial">
             <p>
-              “Louis is one of the best editors I’ve worked with — fast turnaround,
-              great communication, and consistently strong creative decisions.
-              He improves the pacing and clarity of every video.”
+              “Louis is one of the best editors I’ve worked with — fast turnaround, great communication, and consistently
+              strong creative decisions. He improves the pacing and clarity of every video.”
             </p>
             <span>— Client, YouTube Creator</span>
+            <div className="micro" style={{ marginTop: 10 }}>
+              Editing engagement (not a paid ads project).
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="section">
+      {/* PROCESS */}
+      <section className="sec secDark">
         <div className="container">
-          <h2 className="h2">How It Works</h2>
+          <div className="sectionHead center">
+            <span className="pill pillSoft">How it works</span>
+            <h2 className="bigTitle">
+              How our <span className="accent">production</span> works
+            </h2>
+            <p className="lead">A simple, repeatable system built for speed and performance.</p>
+          </div>
 
-          <div className="process">
-            <div>
-              <h3>01. Strategy</h3>
+          <div className="processGrid">
+            <div className="step">
+              <div className="stepNum">1</div>
+              <h3>Strategy</h3>
               <p>Define persona, hook angle, and desired outcome.</p>
             </div>
-            <div>
-              <h3>02. Storyboard</h3>
-              <p>Script + UI-driven scene planning.</p>
+            <div className="step">
+              <div className="stepNum">2</div>
+              <h3>Storyboard</h3>
+              <p>Script + UI-driven scene plan for approval.</p>
             </div>
-            <div>
-              <h3>03. Production</h3>
-              <p>Animation, sound design, and delivery.</p>
+            <div className="step">
+              <div className="stepNum">3</div>
+              <h3>Production</h3>
+              <p>Animation, sound design, and exports.</p>
             </div>
-            <div>
-              <h3>04. Test & Scale</h3>
+            <div className="step">
+              <div className="stepNum">4</div>
+              <h3>Test & Scale</h3>
               <p>Hook variations structured for A/B testing.</p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* OFFER */}
+      <section className="sec secGlow" id="offer">
+        <div className="container">
+          <div className="sectionHead center">
+            <span className="pill pillSoft">Offer</span>
+            <h2 className="bigTitle">Everything you need to launch.</h2>
+            <p className="lead">A focused package designed for paid acquisition teams.</p>
+          </div>
 
+          <div className="offerGrid">
+            <div className="offerCard featuredOffer">
+              <div className="kicker">Primary package</div>
+              <h3 className="offerTitle">SaaS Ad Package</h3>
+              <p className="fine">Performance-driven creative built for cold traffic.</p>
+
+              <div className="offerLine" />
+
+              <ul className="list">
+                <li>1× 20–30 second animated SaaS ad</li>
+                <li>3× hook variations (first 2–3 seconds)</li>
+                <li>Built from your Figma screens/UI export</li>
+                <li>Structured for paid distribution</li>
+                <li>A/B testing guidance</li>
+              </ul>
+
+              <div className="offerLine" />
+
+              <div className="priceRow">
+                <span className="price">$4,000–$5,000</span>
+                <span className="priceNote">per package</span>
+              </div>
+
+              <a className="btn btnPrimary full" href={BOOKING_URL} target="_blank" rel="noreferrer">
+                Book a Strategy Call
+              </a>
+            </div>
+
+            <div className="offerCard">
+              <div className="kicker">Good to know</div>
+              <h3 className="offerTitle">Timeline</h3>
+              <p className="fine">Typical turnaround: 7–14 days depending on scope and feedback speed.</p>
+
+              <div className="offerLine" />
+
+              <ul className="list">
+                <li>Storyboard approval</li>
+                <li>Motion pass</li>
+                <li>Revisions</li>
+                <li>Final exports</li>
+              </ul>
+
+              <div className="offerLine" />
+
+              <h3 className="offerTitle">Contact</h3>
+              <p className="fine">Prefer email? {EMAIL}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="sec secDark" id="faq">
+        <div className="container">
+          <div className="sectionHead center">
+            <span className="pill pillSoft">FAQ</span>
+            <h2 className="bigTitle">Everything you need to know.</h2>
+          </div>
+
+          <div className="faq">
+            <details className="faqItem">
+              <summary>How do we get started?</summary>
+              <p>Book a call. If it’s a fit, we’ll align on the goal, hook angles, and UI screens to build from.</p>
+            </details>
+
+            <details className="faqItem">
+              <summary>What do you need from us?</summary>
+              <p>Figma screens (or UI export), target persona, key claims, and any references you like.</p>
+            </details>
+
+            <details className="faqItem">
+              <summary>Do you do retainers?</summary>
+              <p>Available after an initial project when it’s a fit and you’re actively testing creative.</p>
+            </details>
+
+            <details className="faqItem">
+              <summary>Do you also take general motion work?</summary>
+              <p>Yes — but this funnel is focused on performance SaaS ads because that’s my primary positioning.</p>
+            </details>
+
+            <details className="faqItem">
+              <summary>What if performance doesn’t improve?</summary>
+              <p>We’ll iterate on the hooks and pacing. The goal is to create assets that support scalable testing.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      {/* FINAL CTA */}
+      <section className="sec secGlow">
+        <div className="container center">
+          <h2 className="finalTitle">
+            Your SaaS deserves better than <span className="accent">expensive ads</span>.
+          </h2>
+          <p className="lead center" style={{ maxWidth: 70 + "ch" }}>
+            Book a quick strategy call. If there’s a fit, we’ll map the first ad and hook variations.
+          </p>
+
+          <div className="actions center" style={{ marginTop: 22 }}>
+            <a className="btn btnPrimary" href={BOOKING_URL} target="_blank" rel="noreferrer">
+              Book a Strategy Call
+            </a>
+            <a className="btn" href="#work">
+              View Work
+            </a>
+          </div>
+
+          <div className="micro" style={{ marginTop: 14 }}>
+            Limited monthly capacity.
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="footer">
+        <div className="container footerRow">
+          <div>© {new Date().getFullYear()} Louis Fortin Studio</div>
+          <div className="footerLinks">
+            <a href="#work">Work</a>
+            <a href="#offer">Offer</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
