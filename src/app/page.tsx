@@ -1,5 +1,5 @@
 export default function Home() {
-  const BOOKING_URL = "YOUR_BOOKING_LINK_HERE"; // TODO: replace (Calendly/SavvyCal)
+  const BOOKING_URL = "https://calendly.com/louisfortin97/30min?month=2026-02"; // TODO: replace (Calendly/SavvyCal)
 
   return (
     <main>
@@ -118,7 +118,7 @@ export default function Home() {
 
               <div className="embed">
                 <iframe
-                  src="https://www.youtube.com/embed/Jdy8cCt7gHw"
+                  src="https://www.youtube.com/embed/=JPZEpHoe0CQ"
                   title="Featured Work"
                   allow="autoplay; encrypted-media; picture-in-picture"
                   allowFullScreen
