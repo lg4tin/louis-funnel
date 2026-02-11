@@ -13,9 +13,12 @@ export default function Home() {
             <span className="pill">A/B test ready</span>
           </div>
 
-          <h1 className="h1">Performance-Driven Animated Ads for Growth-Stage SaaS</h1>
+          <h1 className="h1">
+            Performance-Driven Animated Ads for{" "}
+            <span className="gradient">Growth-Stage SaaS</span>
+          </h1>
           <p className="sub">
-            We help B2B SaaS companies lower CPC, increase CTR, and turn cold traffic into demo bookings — in 20 seconds.
+            We help B2B SaaS companies lower CPC, increase CTR, and turn cold traffic into demo bookings — in 30 seconds.
           </p>
 
           <div className="actions">
@@ -64,6 +67,23 @@ export default function Home() {
           <p className="fine" style={{ marginTop: 14 }}>
             Creative isn’t decoration. It’s performance infrastructure.
           </p>
+        </div>
+      </section>
+
+      <section className="section metrics">
+        <div className="container metricsRow">
+          <div className="metric">
+            <h3>↓ 20–40%</h3>
+            <p>Lower CPC</p>
+          </div>
+          <div className="metric">
+            <h3>↑ 30–60%</h3>
+            <p>Higher CTR</p>
+          </div>
+          <div className="metric">
+            <h3>20 sec</h3>
+            <p>Cold → Warm</p>
+          </div>
         </div>
       </section>
 
@@ -261,6 +281,48 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="section">
+        <div className="container">
+          <h2 className="h2">Client Feedback</h2>
+
+          <div className="testimonial">
+            <p>
+              “Louis is one of the best editors I’ve worked with — fast turnaround,
+              great communication, and consistently strong creative decisions.
+              He improves the pacing and clarity of every video.”
+            </p>
+            <span>— Client, YouTube Creator</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <h2 className="h2">How It Works</h2>
+
+          <div className="process">
+            <div>
+              <h3>01. Strategy</h3>
+              <p>Define persona, hook angle, and desired outcome.</p>
+            </div>
+            <div>
+              <h3>02. Storyboard</h3>
+              <p>Script + UI-driven scene planning.</p>
+            </div>
+            <div>
+              <h3>03. Production</h3>
+              <p>Animation, sound design, and delivery.</p>
+            </div>
+            <div>
+              <h3>04. Test & Scale</h3>
+              <p>Hook variations structured for A/B testing.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
     </main>
   );
 }
