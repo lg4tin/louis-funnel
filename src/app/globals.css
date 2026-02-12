@@ -359,8 +359,4 @@ a{ color:inherit; text-decoration:none; }
   .secHero{ padding: 120px 0 88px; }
 }
 
-p.lead, p.lead center{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+
