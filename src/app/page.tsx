@@ -62,7 +62,7 @@ export default function Home() {
       {/* PROBLEM */}
       <section className="sec secDark">
         <div className="container">
-          <div className="sectionHead">
+          <div className="sectionHead center">
             <span className="pill pillSoft">The problem</span>
             <h2 className="bigTitle">Your creative is the bottleneck.</h2>
             <p className="lead">
