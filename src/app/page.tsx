@@ -21,7 +21,7 @@ export default function Home() {
       kicker: "Case Study",
       title: "SaaS Product Workflow",
       goal: "Make complex product value feel obvious in seconds.",
-      url: "https://www.youtube.com/embedd4MsKyg8y2o",
+      url: "https://www.youtube.com/embed/d4MsKyg8y2o",
       bullets: ["Outcome-led copy", "Clean UI focus", "Strong CTA framing"],
     },
   ];
@@ -66,7 +66,7 @@ export default function Home() {
             <span className="pill pillSoft">The problem</span>
             <h2 className="bigTitle">Your creative is the bottleneck.</h2>
             <p className="lead">
-              In 2025, everyone has access to the same targeting tools. Meta optimizes delivery. Google optimizes placement.
+              In 2026, everyone has access to the same targeting tools. Meta optimizes delivery. Google optimizes placement.
               The only real variable left is your ad creative.
             </p>
           </div>
