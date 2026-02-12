@@ -201,8 +201,7 @@ export default function Home() {
             <h2 className="bigTitle">Simple, reliable execution.</h2>
           </div>
 
-          <div className="testimonial">
-            <p>
+          <div className="testimonial">            <div className="testimonialAvatar"></div>            <p>
               “Louis is one of the best editors I’ve worked with — fast turnaround, great communication, and consistently
               strong creative decisions. He improves the pacing and clarity of every video.”
             </p>
