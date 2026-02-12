@@ -201,11 +201,15 @@ export default function Home() {
             <h2 className="bigTitle">Simple, reliable execution.</h2>
           </div>
 
-          <div className="testimonial">            <div className="testimonialAvatar"></div>            <p>
+          <div className="testimonial">
+            <div className="testimonialAvatar">
+              <img src="/DR.jpg" alt="Client" />
+            </div>
+            <p>
               “Louis is one of the best editors I’ve worked with — fast turnaround, great communication, and consistently
               strong creative decisions. He improves the pacing and clarity of every video.”
             </p>
-            <span>— Client, YouTube Creator</span>
+            <span>— Dylan Reynolds, YouTube Creator and CEO of Creator Launch</span>
             <div className="micro" style={{ marginTop: 10 }}>
               Editing engagement (not a paid ads project).
             </div>
