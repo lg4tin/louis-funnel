@@ -248,6 +248,14 @@ a{ color:inherit; text-decoration:none; }
   margin: 0 auto 20px;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+  display: block;
+}
+.testimonialAvatar img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .testimonial span{
   display:block;
