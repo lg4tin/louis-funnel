@@ -155,7 +155,7 @@ export default function Home() {
           <div className="sectionHead center">
             <span className="pill pillSoft">Work</span>
             <h2 className="bigTitle">A few examples.</h2>
-            <p className="lead">Keep these tight: goal, what was built, and what it optimizes for.</p>
+            {/* <p className="lead">Keep these tight: goal, what was built, and what it optimizes for.</p> */}
           </div>
 
           <div className="workGrid">
