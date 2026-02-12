@@ -5,24 +5,24 @@ export default function Home() {
   const work = [
     {
       kicker: "Featured",
-      title: "Dev Tools Launch Ad",
-      goal: "Explain a complex workflow in under 30 seconds with UI clarity and a strong hook.",
+      title: "AI-Native CRM Built for Speed.",
+      goal: "Most CRMs were built for process control. Attio was built for revenue velocity. In 30 seconds, this ad reframes CRM as a growth engine — not a data warehouse.",
       url: "https://www.youtube.com/embed/JPZEpHoe0CQ",
-      bullets: ["Engineered hook structure", "UI-led transformation storytelling", "Modular scenes for variations"],
+      bullets: ["Hook engineered for paid acquisition", "Visual transformation from friction → flow", "AI positioning without overhyping", "Feature clarity in under 25 seconds", "Built for cold traffic"],
     },
     {
       kicker: "Case Study",
-      title: "AI SaaS Feature Drop",
-      goal: "Highlight 3 new features with clean UI transitions and tight pacing for paid social.",
+      title: "Ship Faster. Deploy Instantly.",
+      goal: "Feature launch video designed for paid social — translating technical upgrades into business impact. Structured for Cold audience comprehension, Visual-first storytelling, Conversion-ready messaging",
       url: "https://www.youtube.com/embed/Jdy6sCt7gHw",
-      bullets: ["Feature clarity", "Fast pacing, no fluff", "Conversion-ready structure"],
+      bullets: ["Feature-led narrative arc", "Dev-focused positioning without jargon overload", "Tight pacing for paid media", "Clear value in first 8 seconds", "Scalable for multiple ad variations"],
     },
     {
       kicker: "Case Study",
-      title: "SaaS Product Workflow",
-      goal: "Make complex product value feel obvious in seconds.",
+      title: "From Manual Processing to Autonomous Workflows.",
+      goal: "30-second transformation ad designed to make operational value obvious instantly. Built to turn cold traffic into high-intent demo bookings.",
       url: "https://www.youtube.com/embed/d4MsKyg8y2o",
-      bullets: ["Outcome-led copy", "Clean UI focus", "Strong CTA framing"],
+      bullets: ["Outcome-first messaging", "Clear before/after workflow contrast", "AI explained visually (not verbally)", "Enterprise positioning", "Strong CTA framing"]
     },
   ];
 
