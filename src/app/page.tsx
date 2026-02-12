@@ -113,7 +113,7 @@ export default function Home() {
       {/* SOLUTION */}
       <section className="sec secGlow">
         <div className="container">
-          <div className="sectionHead">
+          <div className="sectionHead center">
             <span className="pill pillSoft">The solution</span>
             <h2 className="bigTitle">Performance-engineered SaaS creative.</h2>
             <p className="lead">
