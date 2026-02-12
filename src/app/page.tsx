@@ -64,7 +64,7 @@ export default function Home() {
         <div className="container">
           <div className="sectionHead center">
             <span className="pill pillSoft">The problem</span>
-            <h2 className="bigTitle">Your creative is the bottleneck.</h2>
+            <h2 className="bigTitle">Your ad creative is the bottleneck.</h2>
             <p className="lead">
               In 2026, everyone has access to the same targeting tools. Meta optimizes delivery. Google optimizes placement.
               The only real variable left is your ad creative.
