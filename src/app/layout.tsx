@@ -11,6 +11,9 @@ export const metadata: Metadata = {
       "UI-first motion ads built for clarity and clicks. Script → Design → Animation. Book a call.",
     type: "website",
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
   robots: { index: true, follow: true },
 };
 
