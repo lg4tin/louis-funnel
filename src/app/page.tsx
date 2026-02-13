@@ -6,7 +6,7 @@ export default function Home() {
     {
       kicker: "Featured",
       title: "AI-Native CRM Built for Speed.",
-      goal: "Most CRMs were built for process control. Attio was built for revenue velocity. In just 30 seconds, this ad reframes Attio's CRM as a growth engine — not a data warehouse.",
+      goal: "Most CRMs were built for process control. Attio was built for revenue velocity. In just 30 seconds, this ad reframes Attio's CRM as a powerful growth engine — not a data warehouse.",
       url: "https://www.youtube.com/embed/JPZEpHoe0CQ",
       bullets: ["Hook engineered for paid acquisition", "Visual transformation from friction → flow", "AI positioning without overhyping", "Feature clarity in under 25 seconds", "Built for cold traffic"],
     },
