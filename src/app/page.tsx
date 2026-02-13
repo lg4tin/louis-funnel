@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <main>
-      <link rel="icon" href="/favicon.ico" />
+      
 
       {/* HERO */}
       <section className="sec secHero">
