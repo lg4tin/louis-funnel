@@ -91,7 +91,7 @@ export default function HomePage() {
               </h1>
 
               <p className="lf-heroSub">
-                I help SaaS, Tech, and AI companies turn complex products into sharp launch videos,
+                I help SaaS, Tech, and AI companies turn complex products into sharp launch videos, explainer videos,
                 homepage videos, and paid social ads that explain the value fast.
               </p>
 
@@ -390,7 +390,7 @@ export default function HomePage() {
           <div className="lf-container">
             <div className="lf-card">
               <p className="lf-kicker">FAQ</p>
-              <h2>Got Questions? We’ve Got Answers. Check out our frequently asked questions below.</h2>
+              <h2>Got Questions? We’ve Got Answers. Check out our FAQs below.</h2>
 
               <div className="lf-faqGrid">
                 <details>
