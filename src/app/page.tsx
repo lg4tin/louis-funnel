@@ -1183,7 +1183,7 @@ export default function HomePage() {
 
     .lf-logo img,
     .lf-logoImage {
-      height: 44px;
+      height: 60px;
     }
   }
 `}</style>
