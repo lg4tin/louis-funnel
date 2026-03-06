@@ -328,66 +328,101 @@ export default function HomePage() {
               <h2>Give warm traffic trust signals with video proof, not just text.</h2>
             </div>
 
-            <div className="lf-testimonialGrid">
+          <div className="lf-testimonialGrid">
 
-  {/* Testimonial 1 */}
-  <div className="lf-quoteCard">
+            {/* Testimonial 1 */}
+            <div className="lf-quoteCard">
 
-    <div className="lf-quoteIcons">
-      <span className="lf-quoteOpen">“</span>
-      <span className="lf-quoteClose">”</span>
-    </div>
+              <div className="lf-quoteIcons">
+                <span className="lf-quoteOpen">“</span>
+                <span className="lf-quoteClose">”</span>
+              </div>
 
-    <p className="lf-quote">
-      I have to say Louis is hands down one of the most efficient,
-      professional, easy to work with creatives I’ve ever worked with.
-    </p>
+              <p className="lf-quote">
+                I have to say Louis is hands down one of the most efficient,
+                professional, easy to work with creatives I’ve ever worked with.
+              </p>
 
-    <div className="lf-quoteMeta">
+              <div className="lf-quoteMeta">
 
-      <img
-        src="/DR.jpg"
-        className="lf-quoteAvatar"
-      />
+                <img
+                  src="/DR.jpg"
+                  className="lf-quoteAvatar"
+                />
 
-      <div className="lf-quoteInfo">
-        <strong>Dylan Reynolds</strong>
-        <span>YouTuber, Agency Owner, and CEO of Creator Launch LLC</span>
-      </div>
+                <div className="lf-quoteInfo">
+                  <strong>Dylan Reynolds</strong>
+                  <span>YouTuber, Agency Owner, and CEO of Creator Launch LLC</span>
+                </div>
 
-    </div>
+              </div>
 
-    </div>
+              </div>
 
 
-      {/* Testimonial 2 */}
-        <div className="lf-quoteCard">
+          {/* Testimonial 2 */}
+            <div className="lf-quoteCard">
 
-          <div className="lf-quoteIcons">
-            <span className="lf-quoteOpen">“</span>
-            <span className="lf-quoteClose">”</span>
-          </div>
+              <div className="lf-quoteIcons">
+                <span className="lf-quoteOpen">“</span>
+                <span className="lf-quoteClose">”</span>
+              </div>
 
-          <p className="lf-quote">
-            Louis delivered an incredible animation that made our product
-            instantly easier to understand. The process was smooth,
-            collaborative, and extremely professional.
-          </p>
+              <p className="lf-quote">
+                Louis delivered an incredible animation that made our product
+                instantly easier to understand. The process was smooth,
+                collaborative, and extremely professional.
+              </p>
 
-          <div className="lf-quoteMeta">
+              <div className="lf-quoteMeta">
 
-            <div className="lf-quoteAvatar"></div>
+                <div className="lf-quoteAvatar"></div>
 
-            <div className="lf-quoteInfo">
-              <strong>Client Name</strong>
-              <span>Founder, SaaS Company</span>
+                <div className="lf-quoteInfo">
+                  <strong>Client Name</strong>
+                  <span>Founder, SaaS Company</span>
+                </div>
+
+              </div>
+
             </div>
+                {/* Video Testimonial 1 */}
+              <div className="lf-videoTestimonial">
 
-          </div>
+                <div className="lf-videoWrap">
+                  <iframe
+                    src="https://www.youtube.com/embed/c88hK0_r7Dc"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
 
-        </div>
+                <div className="lf-videoMeta">
+                  <strong>Dylan Reynolds</strong>
+                  <span>YouTuber, Agency Owner, and CEO of Creator Launch LLC</span>
+                </div>
 
-        </div>
+              </div>
+
+
+              {/* Video Testimonial 2 */}
+              <div className="lf-videoTestimonial">
+
+                <div className="lf-videoWrap">
+                  <iframe
+                    src="https://www.youtube.com/embed/VIDEO_ID"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
+                <div className="lf-videoMeta">
+                  <strong>Client Name</strong>
+                  <span>Founder, SaaS Company</span>
+                </div>
+
+              </div>
+            </div>
           </div>
         </section>
 
@@ -1117,6 +1152,47 @@ export default function HomePage() {
 
   .lf-quoteInfo span {
     color: rgba(255,255,255,0.65);
+    font-size: 14px;
+  }
+
+  .lf-videoTestimonial {
+  background: white;
+  border-radius: 32px;
+  padding: 18px;
+  border: 1px solid rgba(17,17,17,0.06);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.05);
+  }
+
+  .lf-videoWrap {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    border-radius: 20px;
+    background: black;
+  }
+
+  .lf-videoWrap iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .lf-videoMeta {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .lf-videoMeta strong {
+    font-size: 16px;
+  }
+
+  .lf-videoMeta span {
+    color: rgba(17,17,17,0.6);
     font-size: 14px;
   }
 
