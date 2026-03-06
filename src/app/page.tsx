@@ -33,7 +33,7 @@ export default function HomePage() {
     {
       name: "Client Testimonial 01",
       role: "Founder / Marketing Lead",
-      embedUrl: "https://www.youtube.com/embed/c88hK0_r7Dc",
+      embedUrl: "https://www.youtube.com/embed/vAizoaODbas",
     },
     {
       name: "Client Testimonial 02",
