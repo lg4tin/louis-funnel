@@ -473,7 +473,7 @@ export default function HomePage() {
         }
 
         .lf-logo img {
-          height: 60px;
+          height: 85px;
           width: auto;
         }
 
@@ -1178,7 +1178,7 @@ export default function HomePage() {
           }
           
           .lf-logoImage {
-            height: 60px;
+            height: 85px;
             width: auto;
             display: block;
           }
