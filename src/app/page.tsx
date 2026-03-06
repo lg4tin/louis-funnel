@@ -171,7 +171,7 @@ export default function HomePage() {
             <p className="lf-kicker">FEATURED WORK</p>
             <div className="lf-sectionHead">
               <h2>
-                The homepage should feel like a real offer page, not just a portfolio dump.
+                Professional videos, fully launch-ready in only 14 days. Zero Agency Hassle.
               </h2>
               <a href="/packages" className="lf-btn lf-btn-secondary">
                 View Packages
