@@ -472,6 +472,11 @@ export default function HomePage() {
           min-width: fit-content;
         }
 
+        .lf-logo img {
+          height: 34px;
+          width: auto;
+        }
+
         .lf-logoMark {
           width: 44px;
           height: 44px;
