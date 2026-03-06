@@ -48,7 +48,7 @@ export default function HomePage() {
         <header className="lf-headerWrap">
           <div className="lf-header">
             <a href="#top" className="lf-logo">
-              <div className="lf-logoMark">LF</div>
+              <img src="/logo.png" alt="Louis Fortin Studio logo" className="lf-logoImage" />
               <div className="lf-logoText">
                 <span className="lf-logoTop">LOUIS FORTIN</span>
                 <span className="lf-logoBottom">Studio</span>
@@ -1170,6 +1170,11 @@ export default function HomePage() {
 
           .lf-logoBottom {
             font-size: 18px;
+          }
+          .lf-logoImage {
+            height: 44px;
+            width: auto;
+            display: block;
           }
         }
       `}</style>
