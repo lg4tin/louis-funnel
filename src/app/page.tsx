@@ -1,3 +1,5 @@
+"use client";
+
 export default function HomePage() {
   const BOOKING_URL = "https://calendly.com/louisfortin97/30min";
   const EMAIL = "louisfortin97@gmail.com";
