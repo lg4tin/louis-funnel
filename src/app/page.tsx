@@ -78,7 +78,7 @@ export default function HomePage() {
             <div className="lf-card lf-heroCard">
               <div className="lf-pillRow">
                 <span className="lf-pill">Built for SaaS teams</span>
-                <span className="lf-pill">20–30 sec ads</span>
+                <span className="lf-pill">Ad/Explainer Videos</span>
                 <span className="lf-pill">Hook variations</span>
                 <span className="lf-pill">Launch-ready creative</span>
               </div>
@@ -107,11 +107,11 @@ export default function HomePage() {
               <div className="lf-statGrid">
                 <div className="lf-statCard">
                   <strong>SaaS-first</strong>
-                  <span>Built for software, AI tools, and B2B products.</span>
+                  <span>Built for software, AI tools, and B2B tech products.</span>
                 </div>
                 <div className="lf-statCard">
                   <strong>Clear process</strong>
-                  <span>Strategy, concept, animation, revisions, delivery.</span>
+                  <span>Strategy, concept, storyboard, animation, revisions, delivery.</span>
                 </div>
                 <div className="lf-statCard">
                   <strong>Premium style</strong>
@@ -139,7 +139,7 @@ export default function HomePage() {
               <div className="lf-accentCard" style={{ background: ACCENT }}>
                 <p className="lf-kicker lf-kicker-dark">BEST FIT</p>
                 <h3>
-                  AI tools, B2B SaaS, and product teams that need better creative than generic
+                  AI tools, B2B SaaS, and tech product teams that need better creative than generic
                   dashboard ads.
                 </h3>
                 <div className="lf-tagRow">
