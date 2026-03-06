@@ -11,7 +11,7 @@ export default function HomePage() {
       title: "AI-Native CRM Built for Speed",
       description:
         "A premium SaaS ad built to make a complex product feel clear, modern, and instantly valuable.",
-      embedUrl: "https://www.youtube.com/embed/JPZEPhoE0co",
+      embedUrl: "https://www.youtube.com/embed/JPZEpHoe0CQ",
     },
     {
       label: "Case Study",
@@ -25,7 +25,7 @@ export default function HomePage() {
       title: "From Manual Processing to Flow",
       description:
         "A before/after transformation ad designed to turn product complexity into something obvious.",
-      embedUrl: "https://www.youtube.com/embed/d4MSKyg8y20",
+      embedUrl: "https://www.youtube.com/embed/d4MsKyg8y2o",
     },
   ];
 
@@ -91,7 +91,7 @@ export default function HomePage() {
               </h1>
 
               <p className="lf-heroSub">
-                I help SaaS and AI companies turn complex products into sharp launch videos,
+                I help SaaS, Tech, and AI companies turn complex products into sharp launch videos,
                 homepage videos, and paid social ads that explain the value fast.
               </p>
 
