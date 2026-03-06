@@ -329,36 +329,62 @@ export default function HomePage() {
             </div>
 
             <div className="lf-testimonialGrid">
-              <div className="lf-quoteCard">
-                <p className="lf-quoteMark">“</p>
-                <p className="lf-quote">
-                  I have to say Louis is hands down one of the most efficient, professional, easy to work with creatives I’ve ever worked with.
-                </p>
-                <div className="lf-quoteMeta">
-                  <strong>Dylan Reynolds</strong>
-                  <span>YouTuber, Agency Owner, and CEO of Creator Launch LLC</span>
-                </div>
-              </div>
 
-              <div className="lf-stackCol">
-                {testimonialVideos.map((video) => (
-                  <div className="lf-videoCard" key={video.name}>
-                    <div className="lf-videoMeta">
-                      <span>{video.role}</span>
-                      <h3>{video.name}</h3>
-                    </div>
-                    <div className="lf-embedWrap">
-                      <iframe
-                        src={video.embedUrl}
-                        title={video.name}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
+  {/* Testimonial 1 */}
+  <div className="lf-quoteCard">
+
+    <div className="lf-quoteIcons">
+      <span className="lf-quoteOpen">“</span>
+      <span className="lf-quoteClose">”</span>
+    </div>
+
+    <p className="lf-quote">
+      I have to say Louis is hands down one of the most efficient,
+      professional, easy to work with creatives I’ve ever worked with.
+    </p>
+
+    <div className="lf-quoteMeta">
+
+      <div className="lf-quoteAvatar"></div>
+
+      <div className="lf-quoteInfo">
+        <strong>Dylan Reynolds</strong>
+        <span>YouTuber, Agency Owner, and CEO of Creator Launch LLC</span>
+      </div>
+
+    </div>
+
+    </div>
+
+
+      {/* Testimonial 2 */}
+        <div className="lf-quoteCard">
+
+          <div className="lf-quoteIcons">
+            <span className="lf-quoteOpen">“</span>
+            <span className="lf-quoteClose">”</span>
+          </div>
+
+          <p className="lf-quote">
+            Louis delivered an incredible animation that made our product
+            instantly easier to understand. The process was smooth,
+            collaborative, and extremely professional.
+          </p>
+
+          <div className="lf-quoteMeta">
+
+            <div className="lf-quoteAvatar"></div>
+
+            <div className="lf-quoteInfo">
+              <strong>Client Name</strong>
+              <span>Founder, SaaS Company</span>
             </div>
+
+          </div>
+
+        </div>
+
+        </div>
           </div>
         </section>
 
