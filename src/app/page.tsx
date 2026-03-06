@@ -345,7 +345,10 @@ export default function HomePage() {
 
     <div className="lf-quoteMeta">
 
-      <div className="lf-quoteAvatar"></div>
+      <img
+        src="/DR.jpg"
+        className="lf-quoteAvatar"
+      />
 
       <div className="lf-quoteInfo">
         <strong>Dylan Reynolds</strong>
@@ -1051,6 +1054,70 @@ export default function HomePage() {
 
   .lf-quoteMeta span {
     color: rgba(255, 255, 255, 0.65);
+  }
+
+  .lf-testimonialGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+  .lf-quoteCard {
+    background: #111111;
+    color: white;
+    border-radius: 36px;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 16px 46px rgba(0,0,0,0.16);
+  }
+
+  .lf-quoteIcons {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    right: 28px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 64px;
+    color: #2e82d9;
+    opacity: 0.6;
+  }
+
+  .lf-quote {
+    font-size: 26px;
+    line-height: 1.6;
+    margin-top: 50px;
+  }
+
+  .lf-quoteMeta {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .lf-quoteAvatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #2e82d9;
+  }
+
+  .lf-quoteInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lf-quoteInfo strong {
+    font-size: 16px;
+  }
+
+  .lf-quoteInfo span {
+    color: rgba(255,255,255,0.65);
+    font-size: 14px;
   }
 
   .lf-ctaBand {
