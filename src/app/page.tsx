@@ -332,12 +332,11 @@ export default function HomePage() {
               <div className="lf-quoteCard">
                 <p className="lf-quoteMark">“</p>
                 <p className="lf-quote">
-                  Louis made the product feel more premium and much easier to understand in
-                  under 30 seconds.
+                  I have to say Louis is hands down one of the most efficient, professional, easy to work with creatives I’ve ever worked with.
                 </p>
                 <div className="lf-quoteMeta">
-                  <strong>Future Client Name</strong>
-                  <span>Founder / Head of Marketing</span>
+                  <strong>Dylan Reynolds</strong>
+                  <span>YouTuber, Agency Owner, and CEO of Creator Launch LLC</span>
                 </div>
               </div>
 
