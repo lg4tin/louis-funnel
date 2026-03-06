@@ -1172,7 +1172,7 @@ export default function HomePage() {
             font-size: 18px;
           }
           .lf-logoImage {
-            height: 44px;
+            height: 10px;
             width: auto;
             display: block;
           }
