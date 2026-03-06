@@ -38,7 +38,7 @@ export default function HomePage() {
     {
       name: "Client Testimonial 02",
       role: "Growth / Product Team",
-      embedUrl: "https://www.youtube.com/embed/Jdy6sCt7gHw",
+      embedUrl: "https://www.youtube.com/embedvAizoaODbas",
     },
   ];
 
@@ -257,8 +257,8 @@ export default function HomePage() {
               <div className="lf-offerVideos">
                 <div className="lf-videoCard">
                   <div className="lf-videoMeta">
-                    <span>Hero Video</span>
-                    <h3>Main featured project</h3>
+                    <span>My Work</span>
+                    <h3>Spec Ad for Attio (AI CRM SaaS Company)</h3>
                   </div>
                   <div className="lf-embedWrap">
                     <iframe
@@ -272,8 +272,8 @@ export default function HomePage() {
 
                 <div className="lf-videoCard">
                   <div className="lf-videoMeta">
-                    <span>Proof</span>
-                    <h3>Testimonial or case-study video</h3>
+                    <span>My Work</span>
+                    <h3>Spec Explainer Video for Stitch AI</h3>
                   </div>
                   <div className="lf-embedWrap">
                     <iframe
@@ -369,9 +369,7 @@ export default function HomePage() {
               </div>
 
               <p className="lf-quote">
-                Louis delivered an incredible animation that made our product
-                instantly easier to understand. The process was smooth,
-                collaborative, and extremely professional.
+                I absolutely loved Louis' After Effects course. It's always something I wanted to learn for my own YouTube content. He is very thourough and helpful!
               </p>
 
               <div className="lf-quoteMeta">
@@ -379,8 +377,8 @@ export default function HomePage() {
                 <div className="lf-quoteAvatar"></div>
 
                 <div className="lf-quoteInfo">
-                  <strong>Client Name</strong>
-                  <span>Founder, SaaS Company</span>
+                  <strong>Logan Ludwig</strong>
+                  <span>YouTuber</span>
                 </div>
 
               </div>
