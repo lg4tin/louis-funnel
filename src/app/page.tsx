@@ -390,14 +390,14 @@ export default function HomePage() {
           <div className="lf-container">
             <div className="lf-card">
               <p className="lf-kicker">FAQ</p>
-              <h2>Keep the site simple, clear, and easy to trust.</h2>
+              <h2>Got Questions? We’ve Got Answers. Check out our frequently asked questions below.</h2>
 
               <div className="lf-faqGrid">
                 <details>
                   <summary>What kinds of companies do you work with?</summary>
                   <p>
-                    Mostly SaaS, AI, and B2B software companies that need paid social ads,
-                    launch videos, or homepage product videos.
+                    Mostly Tech, SaaS, AI, and B2B software companies that need paid social ads,
+                    launch videos, or homepage product videos. However, if you still need a great video for anoother niche and think I can help, feel free to book a call and let's discuss!
                   </p>
                 </details>
 
