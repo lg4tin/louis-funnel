@@ -455,7 +455,7 @@ export default function HomePage() {
           background: rgba(255, 255, 255, 0.92);
           border: 1px solid rgba(17, 17, 17, 0.06);
           border-radius: 28px;
-          padding: 16px 22px;
+          padding: 8px 22px;
           display: flex;
           align-items: center;
           justify-content: space-between;
