@@ -97,10 +97,10 @@ export default function HomePage() {
           <div className="lf-container lf-heroGrid">
             <div className="lf-card lf-heroCard">
               <div className="lf-pillRow">
-                <span className="lf-pill">Built for SaaS and Tech teams</span>
-                <span className="lf-pill">Ad/Explainer Videos</span>
+                <span className="lf-pill">Built for SaaS/Tech teams</span>
+                <span className="lf-pill">Explainer Videos</span>
                 <span className="lf-pill">Hook variations</span>
-                <span className="lf-pill">Launch-ready creative</span>
+                <span className="lf-pill">Launch-ready ad creatives</span>
               </div>
 
               <p className="lf-kicker">PREMIUM SAAS ADS</p>
