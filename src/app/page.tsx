@@ -432,7 +432,10 @@ export default function HomePage() {
 
               <div className="lf-quoteMeta">
 
-                <div className="lf-quoteAvatar"></div>
+                <img
+                  src="/LOGAN STUDWIG.jpg"
+                  className="lf-quoteAvatar"
+                />
 
                 <div className="lf-quoteInfo">
                   <strong>Logan Ludwig</strong>
