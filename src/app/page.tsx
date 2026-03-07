@@ -100,7 +100,7 @@ export default function HomePage() {
                 <span className="lf-pill">Built for SaaS/Tech teams</span>
                 <span className="lf-pill">Explainer Videos</span>
                 <span className="lf-pill">Hook variations</span>
-                <span className="lf-pill">Launch-ready ad creatives</span>
+                <span className="lf-pill">Premium ad creatives</span>
               </div>
 
               <p className="lf-kicker">PREMIUM SAAS ADS</p>
@@ -221,7 +221,7 @@ export default function HomePage() {
         <span>CASE STUDY</span>
         <h3>AI Workflow Automation</h3>
         <p>
-          A product video designed to simplify how complex automation systems
+          A spec product video designed to simplify how complex automation systems
           operate — turning backend workflows into something instantly clear.
         </p>
       </div>
