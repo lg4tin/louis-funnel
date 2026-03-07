@@ -10,7 +10,7 @@ export default function HomePage() {
       label: "Featured",
       title: "AI-Native CRM Built for Speed",
       description:
-        "A premium SaaS ad built to make a complex product feel clear, modern, and instantly valuable.",
+        "A premium SaaS spec ad we built to make a complex product feel clear, modern, and instantly valuable.",
       embedUrl: "https://www.youtube.com/embed/JPZEpHoe0CQ",
     },
     {
@@ -97,7 +97,7 @@ export default function HomePage() {
           <div className="lf-container lf-heroGrid">
             <div className="lf-card lf-heroCard">
               <div className="lf-pillRow">
-                <span className="lf-pill">Built for SaaS teams</span>
+                <span className="lf-pill">Built for SaaS and Tech teams</span>
                 <span className="lf-pill">Ad/Explainer Videos</span>
                 <span className="lf-pill">Hook variations</span>
                 <span className="lf-pill">Launch-ready creative</span>
@@ -112,7 +112,7 @@ export default function HomePage() {
 
               <p className="lf-heroSub">
                 I help SaaS, Tech, and AI companies turn complex products into sharp launch videos, explainer videos,
-                homepage videos, and paid social ads that explain the value fast.
+                homepage videos, and paid social ads that explain your product's value fast.
               </p>
 
               <div className="lf-heroActions">
@@ -127,7 +127,7 @@ export default function HomePage() {
               <div className="lf-statGrid">
                 <div className="lf-statCard">
                   <strong>SaaS-first</strong>
-                  <span>Built for software, AI tools, and B2B tech products.</span>
+                  <span>Built for B2B software, AI tools, and tech products.</span>
                 </div>
                 <div className="lf-statCard">
                   <strong>Clear process</strong>
@@ -142,8 +142,8 @@ export default function HomePage() {
 
             <div className="lf-sideStack">
               <div className="lf-card">
-                <p className="lf-kicker">VSL PLACEHOLDER</p>
-                <h3 className="lf-sideTitle">Put your VSL here when you record it</h3>
+                <p className="lf-kicker">FOR A LIMITED TIME</p>
+                <h3 className="lf-sideTitle">Our Special Offer</h3>
 
                 <div className="lf-embedWrap">
               <iframe
@@ -165,7 +165,7 @@ export default function HomePage() {
                   <span>Paid social ads</span>
                   <span>Launch videos</span>
                   <span>Homepage videos</span>
-                  <span>Spec-style creative</span>
+                  <span>Ad creatives</span>
                 </div>
               </div>
             </div>
