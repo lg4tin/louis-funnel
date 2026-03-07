@@ -29,6 +29,26 @@ export default function HomePage() {
     },
   ];
 
+  <div className="lf-videoCard lf-videoCard-large">
+    <div className="lf-videoMeta">
+      <span>CASE STUDY</span>
+      <h3>AI Workflow Automation</h3>
+      <p>
+        A product video designed to simplify how complex automation systems
+        operate — turning backend workflows into something instantly clear.
+      </p>
+    </div>
+
+    <div className="lf-embedWrap">
+      <iframe
+        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        title="Product Video Example"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+  </div>
+
   const testimonialVideos = [
     {
       name: "Client Testimonial 01",
@@ -415,8 +435,8 @@ export default function HomePage() {
                 </div>
 
                 <div className="lf-videoMeta">
-                  <strong>Client Name</strong>
-                  <span>Founder, SaaS Company</span>
+                  <strong>Tommy Flanagan</strong>
+                  <span>Professional Musician</span>
                 </div>
 
               </div>
