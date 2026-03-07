@@ -41,7 +41,7 @@ export default function HomePage() {
 
     <div className="lf-embedWrap">
       <iframe
-        src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        src="https://www.youtube.com/embed/QUanGuJMJys"
         title="Product Video Example"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -145,15 +145,14 @@ export default function HomePage() {
                 <p className="lf-kicker">VSL PLACEHOLDER</p>
                 <h3 className="lf-sideTitle">Put your VSL here when you record it</h3>
 
-                <div className="lf-videoPlaceholder">
-                  <div className="lf-play">▶</div>
-                  <div>
-                    <strong>Video Sales Letter Placeholder</strong>
-                    <p>
-                      Replace this block later with your Loom, YouTube embed, or hosted video.
-                    </p>
-                  </div>
-                </div>
+                <div className="lf-embedWrap">
+              <iframe
+                src="https://www.youtube.com/embed/tvRLomlBD0A"
+                title="Louis Fortin Studio VSL"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
               </div>
 
               <div className="lf-accentCard" style={{ background: ACCENT }}>
