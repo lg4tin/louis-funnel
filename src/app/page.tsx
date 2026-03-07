@@ -143,7 +143,7 @@ export default function HomePage() {
             <div className="lf-sideStack">
               <div className="lf-card">
                 <p className="lf-kicker">FOR A LIMITED TIME</p>
-                <h3 className="lf-sideTitle">Our Special Offer: First 3 videos FREE!</h3>
+                <h3 className="lf-sideTitle">Get a FREE video!</h3>
 
                 <div className="lf-embedWrap">
               <iframe
