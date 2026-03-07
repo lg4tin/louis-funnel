@@ -93,7 +93,7 @@ export default function PackagesPage() {
                 <div className="pkg-videoCard">
                   <div className="pkg-videoMeta">
                     <span>Package Reel</span>
-                    <h3>Sample project beside the offer</h3>
+                    <h3>Sample project</h3>
                   </div>
                   <div className="pkg-embedWrap">
                     <iframe
