@@ -197,43 +197,82 @@ export default function HomePage() {
               </a>
             </div>
 
-            <div className="lf-workGrid">
-              <div className="lf-videoCard lf-videoCard-large">
-                <div className="lf-videoMeta">
-                  <span>{featuredVideos[0].label}</span>
-                  <h3>{featuredVideos[0].title}</h3>
-                  <p>{featuredVideos[0].description}</p>
-                </div>
-                <div className="lf-embedWrap">
-                  <iframe
-                    src={featuredVideos[0].embedUrl}
-                    title={featuredVideos[0].title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-              </div>
+           <div className="lf-workGrid">
+  <div className="lf-stackCol">
+    <div className="lf-videoCard lf-videoCard-large">
+      <div className="lf-videoMeta">
+        <span>FEATURED</span>
+        <h3>{featuredVideos[0].title}</h3>
+        <p>{featuredVideos[0].description}</p>
+      </div>
 
-              <div className="lf-stackCol">
-                {featuredVideos.slice(1).map((video) => (
-                  <div className="lf-videoCard" key={video.title}>
-                    <div className="lf-videoMeta">
-                      <span>{video.label}</span>
-                      <h3>{video.title}</h3>
-                      <p>{video.description}</p>
-                    </div>
-                    <div className="lf-embedWrap">
-                      <iframe
-                        src={video.embedUrl}
-                        title={video.title}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+      <div className="lf-embedWrap">
+        <iframe
+          src={featuredVideos[0].embedUrl}
+          title={featuredVideos[0].title}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+    </div>
+
+    <div className="lf-videoCard lf-videoCard-large">
+      <div className="lf-videoMeta">
+        <span>CASE STUDY</span>
+        <h3>AI Workflow Automation</h3>
+        <p>
+          A product video designed to simplify how complex automation systems
+          operate — turning backend workflows into something instantly clear.
+        </p>
+      </div>
+
+      <div className="lf-embedWrap">
+        <iframe
+          src="https://www.youtube.com/embed/QUanGuJMJys"
+          title="Product Video Example"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+    </div>
+  </div>
+
+  <div className="lf-stackCol">
+      <div className="lf-videoCard">
+        <div className="lf-videoMeta">
+          <span>{featuredVideos[1].label}</span>
+          <h3>{featuredVideos[1].title}</h3>
+          <p>{featuredVideos[1].description}</p>
+        </div>
+
+        <div className="lf-embedWrap">
+          <iframe
+            src={featuredVideos[1].embedUrl}
+            title={featuredVideos[1].title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
+
+      <div className="lf-videoCard">
+        <div className="lf-videoMeta">
+          <span>{featuredVideos[2].label}</span>
+          <h3>{featuredVideos[2].title}</h3>
+          <p>{featuredVideos[2].description}</p>
+        </div>
+
+        <div className="lf-embedWrap">
+          <iframe
+            src={featuredVideos[2].embedUrl}
+            title={featuredVideos[2].title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
+    </div>
+  </div>
           </div>
         </section>
 
